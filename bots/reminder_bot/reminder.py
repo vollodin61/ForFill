@@ -1,4 +1,5 @@
 from pyrogram import Client
+from pyrogram.types import Message
 from time import sleep
 from datetime import datetime
 from dotenv import find_dotenv, load_dotenv
@@ -35,8 +36,6 @@ def reminds():
         print(f'Цикл №{count + 1} завершен')
         sleep(600)
         count += 1
-
-
 
 
 def sender_hashtags():
