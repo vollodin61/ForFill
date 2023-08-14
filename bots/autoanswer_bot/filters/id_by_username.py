@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message, Chat
 
-from autoanswer_bot.loader import my_acc
+from autoanswer_bot.just_go import my_acc
 
 
 def username_to_id(text):

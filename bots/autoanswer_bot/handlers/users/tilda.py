@@ -1,7 +1,8 @@
-from autoanswer_bot.loader import my_acc
-from pyrogram.types import Message, Chat
-# from pyrogram.handlers import message_handler
+from pyrogram.types import Message
+from autoanswer_bot.just_go import my_acc
 
-@my_acc.on_message()
-async def autoanswer(message: Message):
-    pass # TODO при помощи фильтра, который импортируем из .filters, отправляем ссылку-приглос
+
+def autoanswer(message: Message):
+    chat_id = '590018906'
+    text = message.text
+    my_acc.send_message(chat_id=chat_id, text='text')
