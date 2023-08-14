@@ -68,5 +68,3 @@ M
 bots/reminder_bot/reminder.py,4/4/44919befd7ebde277b188c7a548b921050083b01
 Y
 )bots/reminder_bot/instruction_reminder.py,e/8/e81514388fbe8dc374886aaa37b9ca4bcd29c649
-P
- bots/autoanswer_bot/garbagnya.py,0/e/0ef64bacf0dcca97060fb4a1674d1d80aaa4cd19

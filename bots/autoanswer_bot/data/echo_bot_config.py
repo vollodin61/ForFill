@@ -18,6 +18,7 @@ class TgBotConfig:
     admins_ids: list[int]
     use_redis: bool = False
 
+
 # не понятно нужно ли это вообще
 # @dataclass
 # class UserBotConfig:
