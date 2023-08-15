@@ -30,15 +30,17 @@ class TgBotConfig:
 @dataclass
 class OtherParams:
     other_params: str
-    tilda_chatbot_id = '265299531'
     my_id = '590018906'
+    text_for_survey = 'Текст сообщения для тех, кто прошёл опрос'  # todo написать текст для тех, кто прошёл опрос
+    tilda_chatbot_id = '265299531'
 
 
 @dataclass
-class Config:
-    bot: TgBotConfig
-    db: DataBaseConfig
-    other_p: OtherParams
+class UserBbot:
+    env = Env()
+    env.read_env()
+    my_acc = Client(name="my_acc", api_id=env("_id_"), api_hash="_hash_", parse_mode=ParseMode.HTML)
+
 
 
 # @dataclass  Возможно когда-то понадобится
@@ -46,7 +48,8 @@ class Config:
 #     my_acc: UserBotConfig
 
 @dataclass
-class UserBbot:
-    env = Env()
-    env.read_env()
-    my_acc = Client(name="my_acc", api_id=env("_id_"), api_hash="_hash_", parse_mode=ParseMode.HTML)
+class Config:
+    bot: TgBotConfig
+    db: DataBaseConfig
+    other_p: OtherParams
+    ubot: UserBbot
