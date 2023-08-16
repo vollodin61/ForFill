@@ -22,8 +22,6 @@ i
 9redactor/список упражнений Кошка.txt,3/e/3e01f559bcc7bd783feda5875b9deb03c7dff480
 A
 redactor/text.txt,e/d/edf3c6c51b3edf1eb7797aae03b1aeb8d191bf75
-@
-requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
 N
 bots/reminder_bot/garbagnya.py,b/6/b6b0b4d1163e23ef38ea86a1e324b0f8d96e9db1
 \
@@ -48,8 +46,6 @@ Y
 )bots/reminder_bot/instruction_reminder.py,e/8/e81514388fbe8dc374886aaa37b9ca4bcd29c649
 M
 bots/reminder_bot/reminder.py,4/4/44919befd7ebde277b188c7a548b921050083b01
-H
-bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542
 [
 +bots/autoanswer_bot/handlers/users/tilda.py,9/f/9fc9d8096b5d27ad751f47418a97549f1e1d6c67
 U
@@ -64,3 +60,13 @@ V
 &bots/autoanswer_bot/tilda_bot_data.txt,7/c/7c18d7273b043589d14c86c284c03d6d6c161c1e
 T
 $bots/autoanswer_bot/data/__init__.py,5/b/5b519e0e899b8925fa14595b5cf281a619dd8a07
+X
+(bots/autoanswer_bot/handlers/__init__.py,4/c/4c1bc5a1164dc9b97e49cd2e9cea92fbbd42b60c
+[
++bots/autoanswer_bot/utils/id_by_username.py,4/5/45424bd3032fac57000a50fc06af5c149146c323
+^
+.bots/autoanswer_bot/handlers/users/__init__.py,4/3/43add14dc31e359043517a56d9ec6bce5f181e0b
+?
+bots/.gitignore,a/d/ade7096eb26b52a72e6e21d87ae2c4043a5262e3
+H
+bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542

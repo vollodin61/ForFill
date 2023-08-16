@@ -5,8 +5,8 @@ from autoanswer_bot.data.echo_bot_config import OtherParams
 from autoanswer_bot.utils.finder_pattern import patterns_finder
 
 tilda_bot_id = OtherParams.tilda_chatbot_id
-pattern_for_tilda_request = r'Input_2: @\w+'
-pattern_for_tilda_order = r'Ссылка_на_Телеграм: @\w+'
+pattern_for_tilda_request = "Input_2: @\w+|Input_2: \w+"
+pattern_for_tilda_order = r'Ссылка_на_Телеграм: \w+'
 
 
 # todo здесь ещё может быть другие разные покупки, на них будут другие разные ответы
