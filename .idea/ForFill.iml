@@ -27,4 +27,7 @@
     <orderEntry type="jdk" jdkName="Python 3.11 (ForFill)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="d087e836-2e07-459e-8289-b9bce0ac5ae8" />
+  </component>
 </module>
