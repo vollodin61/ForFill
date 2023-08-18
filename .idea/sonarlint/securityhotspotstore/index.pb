@@ -13,14 +13,8 @@ N
 text_to_30_rows/hashtags_30.py,0/f/0fb3176db0fed1f4fbfc13233f2441962a873fc6
 N
 bots/reminder_bot/garbagnya.py,b/6/b6b0b4d1163e23ef38ea86a1e324b0f8d96e9db1
-\
-,bots/autoanswer_bot/utils/db_api/__init__.py,b/2/b265adbe2625f4066f304a1c42594c1acafcdcdc
-c
-3bots/autoanswer_bot/utils/db_api/sqlite3_db_test.py,3/2/32714e6ad46765c39d0871643fc5dc3225d4dc96
 I
 bots/reminder_bot/log.txt,2/d/2d403e1ebe31307de9a87327a0e69bd7351882a8
-X
-(bots/autoanswer_bot/utils/db_api/test.py,2/4/2415bab9ce263e3f32d8c4017d9f13edc438dc5a
 Q
 !text_to_30_rows/tags_for_gena.txt,1/e/1e476aec5c67cac5ea1cd3b5d26de33b962a4f36
 G
@@ -51,3 +45,36 @@ X
 bots/.gitignore,a/d/ade7096eb26b52a72e6e21d87ae2c4043a5262e3
 H
 bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542
+I
+bots/ANOTHER_ONE_BOT/.env,b/8/b8e6c09c9982793ca6c0a41a527bc152301185e8
+P
+ bots/autoanswer_bot/garbagnya.py,0/e/0ef64bacf0dcca97060fb4a1674d1d80aaa4cd19
+L
+bots/reminder_bot/testiki.py,4/7/47dcf4bbd4f681f848375ad6929f0f828501a8b0
+U
+%redactor/redactor_for_sasha_doctor.py,b/e/be0ba0661bce31641ba5279f6269ba3daee682d7
+A
+redactor/text.txt,e/d/edf3c6c51b3edf1eb7797aae03b1aeb8d191bf75
+C
+redactor/garbage.py,e/1/e196b4b3e018f7db8f2eb19078f159b9ed0afd7d
+i
+9redactor/список упражнений Кошка.txt,3/e/3e01f559bcc7bd783feda5875b9deb03c7dff480
+[
++bots/autoanswer_bot/utils/finder_pattern.py,e/9/e9396e8feb71e21ca9c03695141e6da66d5330cd
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+[
++bots/autoanswer_bot/data/echo_bot_config.py,4/a/4a4ccd36468a22d04c777bf5a332ec71ec4b24ec
+]
+-bots/autoanswer_bot/filters/custom_filters.py,5/8/58aede058147a2cee701d9c9cd4d2f8942f58572
+\
+,bots/autoanswer_bot/handlers/paid_message.py,3/1/3100b6d7d18a57378cc30e9bcebffe8b8657b1ed
+L
+bots/autoanswer_bot/bot.conf,b/c/bcf9a5ab5a1156fe2d24ed1b129a315026f3b7d7
+N
+bots/autoanswer_bot/Dockerfile,7/9/79dd491b642def1db3c12d0fa9a65202349cb662
+N
+bots/autoanswer_bot/just_go.py,1/4/14e80746b88eb51b44c6def84022cc4214865053
+U
+%bots/autoanswer_bot/utils/__init__.py,3/8/38c6dd7ff91007d81c029a1294199fbe7636f067
