@@ -39,8 +39,6 @@ V
 +bots/autoanswer_bot/handlers/users/tilda.py,9/f/9fc9d8096b5d27ad751f47418a97549f1e1d6c67
 U
 %bots/autoanswer_bot/TODO_echo_bot.txt,8/1/818b776eafe7a50eda6bb2c92f0d2ba7113d9830
-U
-%bots/autoanswer_bot/utils/__init__.py,3/8/38c6dd7ff91007d81c029a1294199fbe7636f067
 W
 'bots/autoanswer_bot/filters/__init__.py,f/3/f3bce93dcd5efdc40038100e47027956abb724d5
 T
