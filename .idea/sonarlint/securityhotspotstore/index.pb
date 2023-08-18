@@ -35,16 +35,10 @@ U
 %bots/autoanswer_bot/TODO_echo_bot.txt,8/1/818b776eafe7a50eda6bb2c92f0d2ba7113d9830
 W
 'bots/autoanswer_bot/filters/__init__.py,f/3/f3bce93dcd5efdc40038100e47027956abb724d5
-T
-$bots/autoanswer_bot/data/__init__.py,5/b/5b519e0e899b8925fa14595b5cf281a619dd8a07
 X
 (bots/autoanswer_bot/handlers/__init__.py,4/c/4c1bc5a1164dc9b97e49cd2e9cea92fbbd42b60c
 ^
 .bots/autoanswer_bot/handlers/users/__init__.py,4/3/43add14dc31e359043517a56d9ec6bce5f181e0b
-?
-bots/.gitignore,a/d/ade7096eb26b52a72e6e21d87ae2c4043a5262e3
-H
-bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542
 I
 bots/ANOTHER_ONE_BOT/.env,b/8/b8e6c09c9982793ca6c0a41a527bc152301185e8
 P
@@ -59,22 +53,15 @@ C
 redactor/garbage.py,e/1/e196b4b3e018f7db8f2eb19078f159b9ed0afd7d
 i
 9redactor/список упражнений Кошка.txt,3/e/3e01f559bcc7bd783feda5875b9deb03c7dff480
-[
-+bots/autoanswer_bot/utils/finder_pattern.py,e/9/e9396e8feb71e21ca9c03695141e6da66d5330cd
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-[
-+bots/autoanswer_bot/data/echo_bot_config.py,4/a/4a4ccd36468a22d04c777bf5a332ec71ec4b24ec
-]
--bots/autoanswer_bot/filters/custom_filters.py,5/8/58aede058147a2cee701d9c9cd4d2f8942f58572
-\
-,bots/autoanswer_bot/handlers/paid_message.py,3/1/3100b6d7d18a57378cc30e9bcebffe8b8657b1ed
 L
 bots/autoanswer_bot/bot.conf,b/c/bcf9a5ab5a1156fe2d24ed1b129a315026f3b7d7
 N
 bots/autoanswer_bot/Dockerfile,7/9/79dd491b642def1db3c12d0fa9a65202349cb662
-N
-bots/autoanswer_bot/just_go.py,1/4/14e80746b88eb51b44c6def84022cc4214865053
 U
 %bots/autoanswer_bot/utils/__init__.py,3/8/38c6dd7ff91007d81c029a1294199fbe7636f067
+E
+bots/requirements.txt,c/4/c4e4e8a7821b5dcc7208a8f373ae65165667f103
+T
+$bots/autoanswer_bot/requirements.txt,1/9/194451e5fec85ea36125afee212d6f0e52f0b2c2
+V
+&bots/autoanswer_bot/docker-compose.yml,2/6/26aac76f1a16141cd33536fa4ab37ccf28c91b40

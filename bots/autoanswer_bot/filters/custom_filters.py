@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from autoanswer_bot.data.echo_bot_config import OtherParams
+from data.echo_bot_config import OtherParams
 
 tilda_bot_id = OtherParams.tilda_chatbot_id
 pattern_for_tilda_request = "Input_2: @\w+|Input_2: \w+"
