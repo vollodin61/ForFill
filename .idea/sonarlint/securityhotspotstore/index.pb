@@ -11,17 +11,6 @@ J
 ..idea/inspectionProfiles/profiles_settings.xml,1/e/1e9075f5bf079c01ef2c910709e91a497d262080
 N
 text_to_30_rows/hashtags_30.py,0/f/0fb3176db0fed1f4fbfc13233f2441962a873fc6
-A
-redactor/text.txt,e/d/edf3c6c51b3edf1eb7797aae03b1aeb8d191bf75
-i
-9redactor/список упражнений Кошка.txt,3/e/3e01f559bcc7bd783feda5875b9deb03c7dff480
-C
-redactor/garbage.py,e/1/e196b4b3e018f7db8f2eb19078f159b9ed0afd7d
-U
-%redactor/redactor_for_sasha_doctor.py,b/e/be0ba0661bce31641ba5279f6269ba3daee682d7
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 N
 bots/reminder_bot/garbagnya.py,b/6/b6b0b4d1163e23ef38ea86a1e324b0f8d96e9db1
 \
@@ -46,8 +35,6 @@ M
 bots/reminder_bot/reminder.py,4/4/44919befd7ebde277b188c7a548b921050083b01
 Y
 )bots/reminder_bot/instruction_reminder.py,e/8/e81514388fbe8dc374886aaa37b9ca4bcd29c649
-V
-&bots/autoanswer_bot/tilda_bot_data.txt,7/c/7c18d7273b043589d14c86c284c03d6d6c161c1e
 [
 +bots/autoanswer_bot/handlers/users/tilda.py,9/f/9fc9d8096b5d27ad751f47418a97549f1e1d6c67
 U
@@ -66,7 +53,3 @@ X
 +bots/autoanswer_bot/utils/id_by_username.py,4/5/45424bd3032fac57000a50fc06af5c149146c323
 ^
 .bots/autoanswer_bot/handlers/users/__init__.py,4/3/43add14dc31e359043517a56d9ec6bce5f181e0b
-?
-bots/.gitignore,a/d/ade7096eb26b52a72e6e21d87ae2c4043a5262e3
-H
-bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542

@@ -1,0 +1,20 @@
+version: "3.1"
+
+services:
+
+  tg_bot:
+    container_name: autoans_bot
+    build:
+      context: .
+    command: python just_go.py
+    restart: always
+    networks:
+      - bot_net
+    env_file:
+      - ".env"
+    volumes:
+      - .:/src
+
+networks:
+  bot_net:
+    driver: bridge

@@ -1,0 +1,2 @@
+docker-pass = 1TimeDocPass
+docker_container_name: autoans_bot
