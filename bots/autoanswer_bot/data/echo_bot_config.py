@@ -19,19 +19,11 @@ class TgBotConfig:
     use_redis: bool = False
 
 
-# не понятно нужно ли это вообще
-# @dataclass
-# class UserBotConfig:
-#     name: str
-#     api_id: str
-#     api_hash: str
-
-
 @dataclass
 class OtherParams:
     other_params: str
     my_id = '590018906'
-    text_for_survey = ('Текст сообщения для тех, который мы ещё не придумали.\n'  # todo написать текст для тех, кто прошёл опрос
+    text_for_survey = ('Текст сообщения для тех, который мы ещё не придумали.\n'
                        'Спасибо, что прошли опрос))')
     tilda_chatbot_id = '265299531'
 
@@ -42,10 +34,6 @@ class UserBbot:
     env.read_env()
     my_acc = Client(name="my_acc", api_id=env("_id_"), api_hash="_hash_", parse_mode=ParseMode.HTML)
 
-
-# @dataclass  Возможно когда-то понадобится
-# class UserBotConfig:
-#     my_acc: UserBotConfig
 
 @dataclass
 class Config:
