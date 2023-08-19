@@ -1,3 +1,5 @@
+from _datetime import datetime
+
 from pyrogram import Client
 from dataclasses import dataclass
 from environs import Env
@@ -25,12 +27,11 @@ class OtherParams:
     my_id = 590018906
     tilda_chatbot_id = 265299531
     test_chat_id = -1001930780123
-
+    dt_now = datetime.now().strftime("%H:%M:%S %Y-%m-%d")
     webinar = '700 RUB'
     club = '2000 RUB'
     course = '7000 RUB'
     course_again = '3500 RUB'
-    # finded = re.findall(pattern, paragon)[0][20:]
 
     texts_for_ans_bot = {
         'if_survey': ('Здравствуйте! Я админ курса "Доброе слово для кошки" Ирины Филатовой\n'
@@ -39,7 +40,7 @@ class OtherParams:
         'if_club_again': 'Привет! Спасибо за продление участия в Клубе!)'
                          '\n\nПрисоединяйся!)\nhttps://t.me/+Yw9gMOk5i2E0YzMy ',
         'if_course': 'Здравствуйте! Я админ курса "Доброе слово для кошки" Ирины Филатовой меня зовут Илья.\n'
-                     'Спасибо за проявленный интерес и доверие! Оплата прошла успешно.\n'
+                     'Спасибо за проявленный интерес и доверие! Оплата прошла успешно.\n\n'
                      'Ссылку на чат я пришлю Вам за 2 дня до старта.\n\n'
                      'Иногда алгоритмы телеграма дают сбои. Если ссылка не пришла вовремя, то напишите мне',
         'if_course_again': 'Привет! Я всё ещё админ курса "Доброе слово для кошки", меня зовут Илья.\n'
@@ -48,7 +49,7 @@ class OtherParams:
                            'Иногда алгоритмы телеграма дают сбои. Если ссылка не пришла вовремя, то напишите мне',
     }
 
-
+print(OtherParams.dt_now)
 @dataclass
 class UserBot:
     env = Env()
