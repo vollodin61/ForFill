@@ -1,5 +1,6 @@
-FROM python:latest
-WORKDIR "/src"
+FROM python:3.11.3
+
+WORKDIR /src
 COPY requirements.txt /src
 RUN pip install -r requirements.txt
 COPY . /src

@@ -1,34 +1,43 @@
-import asyncio
-
-from pyrogram import Client, filters
-from pyrogram.handlers import MessageHandler
+from pyrogram import Client
 from pyrogram.types import Message
+from data.echo_bot_config import UserBot, OtherParams
+from utils.finder_pattern import survey_patterns_finder, order_patterns_finder
 
-from autoanswer_bot.data.echo_bot_config import UserBbot, OtherParams
-from autoanswer_bot.filters.custom_filters import pattern_for_tilda_request as patt, request_filter
-from autoanswer_bot.utils.finder_pattern import patterns_finder
-
-ubot = UserBbot.my_acc
+ubot = UserBot.my_acc
 my_id = OtherParams.my_id
-text_for_survey = OtherParams.text_for_survey
-
-
-# ms = ubot.send_message('me', f'user_id = {message.sender_chat}') вот это вот работает для каналов
+tilda_chatbot_id = OtherParams.tilda_chatbot_id
+test_chat_id = OtherParams.test_chat_id
+text_if_survey = OtherParams.texts_for_ans_bot['if_survey']
+text_if_club = OtherParams.texts_for_ans_bot['if_club']
+text_if_course = OtherParams.texts_for_ans_bot['if_course']
+dt_now = OtherParams.dt_now
+err_send_id = OtherParams.pyro_bot_errors_chat_id
 
 
 @ubot.on_message()
-def from_tilda(client: Client, message: Message):  # почему-то эта шляпа у меня только так работает,
-    # if message.chat.id == -1001930780123:
-    if message.from_user.id == 265299531:  # не смог сделать фильтр кастомный
-        tg_nik = patterns_finder(pattern=patt, string=message.text)
-        print(tg_nik)
-        print('нашлося, работает фильтрик')
-        ubot.send_message(tg_nik, text=f"{text_for_survey}")
+def from_tilda(client: Client, message: Message):
+    try:
+        if message.from_user.id == tilda_chatbot_id:
 
-    # todo вот тут должно быть добавление в базу в гугл-таблице
+            if OtherParams.webinar in message.text:
+                print(f'!!! {message.chat.id} - это чат id')
+                tg_nik = order_patterns_finder(string=message.text)
+                print(tg_nik)
+                ubot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_survey']}")
+            if OtherParams.club in message.text:
+                tg_nik = order_patterns_finder(string=message.text)
+                ubot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_club']}")
+            if OtherParams.course in message.text:
+                tg_nik = order_patterns_finder(string=message.text)
+                ubot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_course']}")
+            else:
+                tg_nik = survey_patterns_finder(string=message.text)
+                ubot.send_message(chat_id=tg_nik, text=f"{text_if_survey}")
 
+    except Exception as err:
+        err_text = f'\n{dt_now} - Что-то пошло не так {err}'
+        print(err_text)
+        ubot.send_message(chat_id=err_send_id, text=err_text)
 
-""" регистрация нового хендлера
-my_acc.add_handler(MessageHandler(from_tilda, filters=filters.chat(chats=tilda_id)))"""
 
 ubot.run()
