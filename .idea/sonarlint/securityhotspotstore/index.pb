@@ -31,8 +31,6 @@ V
 &bots/autoanswer_bot/tilda_bot_data.txt,7/c/7c18d7273b043589d14c86c284c03d6d6c161c1e
 [
 +bots/autoanswer_bot/handlers/users/tilda.py,9/f/9fc9d8096b5d27ad751f47418a97549f1e1d6c67
-U
-%bots/autoanswer_bot/TODO_echo_bot.txt,8/1/818b776eafe7a50eda6bb2c92f0d2ba7113d9830
 W
 'bots/autoanswer_bot/filters/__init__.py,f/3/f3bce93dcd5efdc40038100e47027956abb724d5
 X
@@ -41,8 +39,6 @@ X
 .bots/autoanswer_bot/handlers/users/__init__.py,4/3/43add14dc31e359043517a56d9ec6bce5f181e0b
 I
 bots/ANOTHER_ONE_BOT/.env,b/8/b8e6c09c9982793ca6c0a41a527bc152301185e8
-P
- bots/autoanswer_bot/garbagnya.py,0/e/0ef64bacf0dcca97060fb4a1674d1d80aaa4cd19
 L
 bots/reminder_bot/testiki.py,4/7/47dcf4bbd4f681f848375ad6929f0f828501a8b0
 U
@@ -65,3 +61,12 @@ T
 $bots/autoanswer_bot/requirements.txt,1/9/194451e5fec85ea36125afee212d6f0e52f0b2c2
 V
 &bots/autoanswer_bot/docker-compose.yml,2/6/26aac76f1a16141cd33536fa4ab37ccf28c91b40
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+?
+bots/.gitignore,a/d/ade7096eb26b52a72e6e21d87ae2c4043a5262e3
+T
+$bots/autoanswer_bot/data/__init__.py,5/b/5b519e0e899b8925fa14595b5cf281a619dd8a07
+\
+,bots/autoanswer_bot/handlers/paid_message.py,3/1/3100b6d7d18a57378cc30e9bcebffe8b8657b1ed
