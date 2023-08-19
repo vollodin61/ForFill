@@ -27,7 +27,10 @@ class OtherParams:
     my_id = 590018906
     tilda_chatbot_id = 265299531
     test_chat_id = -1001930780123
+    pyro_bot_errors_chat_id = -1001907788569
+
     dt_now = datetime.now().strftime("%H:%M:%S %Y-%m-%d")
+
     webinar = '700 RUB'
     club = '2000 RUB'
     course = '7000 RUB'

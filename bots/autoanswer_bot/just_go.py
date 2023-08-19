@@ -11,6 +11,7 @@ text_if_survey = OtherParams.texts_for_ans_bot['if_survey']
 text_if_club = OtherParams.texts_for_ans_bot['if_club']
 text_if_course = OtherParams.texts_for_ans_bot['if_course']
 dt_now = OtherParams.dt_now
+err_send_id = OtherParams.pyro_bot_errors_chat_id
 
 
 @ubot.on_message()
@@ -36,7 +37,7 @@ def from_tilda(client: Client, message: Message):
     except Exception as err:
         err_text = f'\n{dt_now} - Что-то пошло не так {err}'
         print(err_text)
-        ubot.send_message(chat_id=my_id, text=err_text)
+        ubot.send_message(chat_id=err_send_id, text=err_text)
 
 
 ubot.run()
