@@ -29,8 +29,6 @@ M
 bots/reminder_bot/reminder.py,4/4/44919befd7ebde277b188c7a548b921050083b01
 [
 +bots/autoanswer_bot/handlers/users/tilda.py,9/f/9fc9d8096b5d27ad751f47418a97549f1e1d6c67
-U
-%bots/autoanswer_bot/TODO_echo_bot.txt,8/1/818b776eafe7a50eda6bb2c92f0d2ba7113d9830
 W
 'bots/autoanswer_bot/filters/__init__.py,f/3/f3bce93dcd5efdc40038100e47027956abb724d5
 V
@@ -41,8 +39,6 @@ X
 .bots/autoanswer_bot/handlers/users/__init__.py,4/3/43add14dc31e359043517a56d9ec6bce5f181e0b
 I
 bots/ANOTHER_ONE_BOT/.env,b/8/b8e6c09c9982793ca6c0a41a527bc152301185e8
-P
- bots/autoanswer_bot/garbagnya.py,0/e/0ef64bacf0dcca97060fb4a1674d1d80aaa4cd19
 L
 bots/reminder_bot/testiki.py,4/7/47dcf4bbd4f681f848375ad6929f0f828501a8b0
 U
