@@ -37,8 +37,10 @@ class OtherParams:
     course_again = '3500 RUB'
 
     texts_for_ans_bot = {
-        'if_survey': ('Здравствуйте! Я админ курса "Доброе слово для кошки" Ирины Филатовой\n'
-                      'Спасибо, что прошли опрос!)\n'),
+        'if_survey': ('Здравствуйте! Я Филатова Ирина, автор курса "Доброе слово для кошки"\n'
+                      'Спасибо, что прошли опрос!)\n\n'
+                      'Удалось ли прочитать рекомендации для себя? Что думаете, насколько узнали себя?)\n'
+                      'Буду рада, если поделитесь впечатлением)'),
         'if_club': 'Привет! Добро пожаловать в клуб!\n\nПрисоединяйся!)\nhttps://t.me/+Yw9gMOk5i2E0YzMy ',
         'if_club_again': 'Привет! Спасибо за продление участия в Клубе!)'
                          '\n\nПрисоединяйся!)\nhttps://t.me/+Yw9gMOk5i2E0YzMy ',
@@ -57,7 +59,7 @@ print(OtherParams.dt_now)
 class UserBot:
     env = Env()
     env.read_env()
-    my_acc = Client(name="my_acc", api_id=env("_id_"), api_hash=env("_hash_"), parse_mode=ParseMode.HTML)
+    my_acc = Client(name="my_acc", api_id=env("ifill_id"), api_hash=env("ifill_hash"), parse_mode=ParseMode.HTML)
 
 
 @dataclass
