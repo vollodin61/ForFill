@@ -44,22 +44,26 @@ class OtherParams:
         'if_club': 'Привет! Добро пожаловать в клуб!\n\nПрисоединяйся!)\nhttps://t.me/+Yw9gMOk5i2E0YzMy ',
         'if_club_again': 'Привет! Спасибо за продление участия в Клубе!)'
                          '\n\nПрисоединяйся!)\nhttps://t.me/+Yw9gMOk5i2E0YzMy ',
-        'if_course': 'Здравствуйте! Я админ курса "Доброе слово для кошки" Ирины Филатовой меня зовут Илья.\n'
+        'if_course': 'Здравствуйте! Я Филатова Ирина, автор курса "Доброе слово для кошки"\n'
                      'Спасибо за проявленный интерес и доверие! Оплата прошла успешно.\n\n'
                      'Ссылку на чат я пришлю Вам за 2 дня до старта.\n\n'
-                     'Иногда алгоритмы телеграма дают сбои. Если ссылка не пришла вовремя, то напишите мне',
-        'if_course_again': 'Привет! Я всё ещё админ курса "Доброе слово для кошки", меня зовут Илья.\n'
+                     'Иногда алгоритмы дают сбои. Если ссылка не пришла вовремя, то напишите мне',
+        'if_course_again': 'Привет! \n'
                            'Спасибо за проявленный интерес и доверие! Добро пожаловать на повторное прохождение курса!\n'
                            'Ссылка на чат придёт сюда за 2 дня до старта.\n\n'
                            'Иногда алгоритмы телеграма дают сбои. Если ссылка не пришла вовремя, то напишите мне',
     }
 
+
 print(OtherParams.dt_now)
+
+
 @dataclass
 class UserBot:
     env = Env()
     env.read_env()
-    my_acc = Client(name="my_acc", api_id=env("ifill_id"), api_hash=env("ifill_hash"), parse_mode=ParseMode.HTML)
+    fill_acc = Client(name="fill_acc", api_id=env("ifill_id"), api_hash=env("ifill_hash"), parse_mode=ParseMode.HTML)
+    my_acc = Client(name="my_acc", api_id=env("_id_"), api_hash=env("_hash_"), parse_mode=ParseMode.HTML)
 
 
 @dataclass

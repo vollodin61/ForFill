@@ -3,7 +3,7 @@ from pyrogram.types import Message
 from data.echo_bot_config import UserBot, OtherParams
 from utils.finder_pattern import survey_patterns_finder, order_patterns_finder
 
-ubot = UserBot.my_acc
+fillbot = UserBot.fill_acc
 my_id = OtherParams.my_id
 tilda_chatbot_id = OtherParams.tilda_chatbot_id
 test_chat_id = OtherParams.test_chat_id
@@ -14,7 +14,7 @@ dt_now = OtherParams.dt_now
 err_send_id = OtherParams.pyro_bot_errors_chat_id
 
 
-@ubot.on_message()
+@fillbot.on_message()
 def from_tilda(client: Client, message: Message):
     try:
         if message.from_user.id == tilda_chatbot_id:
@@ -23,21 +23,21 @@ def from_tilda(client: Client, message: Message):
                 print(f'!!! {message.chat.id} - это чат id')
                 tg_nik = order_patterns_finder(string=message.text)
                 print(tg_nik)
-                ubot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_survey']}")
+                fillbot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_survey']}")
             if OtherParams.club in message.text:
                 tg_nik = order_patterns_finder(string=message.text)
-                ubot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_club']}")
+                fillbot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_club']}")
             if OtherParams.course in message.text:
                 tg_nik = order_patterns_finder(string=message.text)
-                ubot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_course']}")
+                fillbot.send_message(chat_id=tg_nik, text=f"{OtherParams.texts_for_ans_bot['if_course']}")
             else:
                 tg_nik = survey_patterns_finder(string=message.text)
-                ubot.send_message(chat_id=tg_nik, text=f"{text_if_survey}")
+                fillbot.send_message(chat_id=tg_nik, text=f"{text_if_survey}")
 
     except Exception as err:
         err_text = f'\n{dt_now} - Что-то пошло не так {err}'
         print(err_text)
-        ubot.send_message(chat_id=err_send_id, text=err_text)
+        fillbot.send_message(chat_id=err_send_id, text=err_text)
 
 
-ubot.run()
+fillbot.run()
