@@ -74,5 +74,3 @@ U
 %bots/autoanswer_bot/TODO_echo_bot.txt,8/1/818b776eafe7a50eda6bb2c92f0d2ba7113d9830
 N
 bots/autoanswer_bot/Dockerfile,7/9/79dd491b642def1db3c12d0fa9a65202349cb662
-H
-bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542

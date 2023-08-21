@@ -3,7 +3,7 @@ from pyrogram.types import Message
 from data.echo_bot_config import UserBot, OtherParams
 from utils.finder_pattern import survey_patterns_finder, order_patterns_finder
 
-ubot = UserBot.my_acc
+ubot = UserBot.fill_acc
 my_id = OtherParams.my_id
 tilda_chatbot_id = OtherParams.tilda_chatbot_id
 test_chat_id = OtherParams.test_chat_id
@@ -40,7 +40,7 @@ def from_tilda(client: Client, message: Message):
         ubot.send_message(chat_id=err_send_id, text=err_text)
 
 
-# try:
+try:
     ubot.run()
-# except Exception as err:
-#     err_text = f'\n{dt_now} - Что-то пошло не так {err}'
+except Exception as err:
+    err_text = f'\n{dt_now} - Что-то пошло не так {err}'
