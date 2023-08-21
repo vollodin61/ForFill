@@ -23,7 +23,7 @@ services:
     container_name: ans_bot
     build:
       context: .
-    command: python just_go.py
+    command: python3 just_go.py
     networks:
       - bot_net
     restart: always

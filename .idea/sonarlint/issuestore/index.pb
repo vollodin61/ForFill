@@ -49,8 +49,6 @@ i
 9redactor/список упражнений Кошка.txt,3/e/3e01f559bcc7bd783feda5875b9deb03c7dff480
 A
 redactor/text.txt,e/d/edf3c6c51b3edf1eb7797aae03b1aeb8d191bf75
-N
-bots/autoanswer_bot/Dockerfile,7/9/79dd491b642def1db3c12d0fa9a65202349cb662
 L
 bots/autoanswer_bot/bot.conf,b/c/bcf9a5ab5a1156fe2d24ed1b129a315026f3b7d7
 U
@@ -59,8 +57,6 @@ E
 bots/requirements.txt,c/4/c4e4e8a7821b5dcc7208a8f373ae65165667f103
 T
 $bots/autoanswer_bot/requirements.txt,1/9/194451e5fec85ea36125afee212d6f0e52f0b2c2
-V
-&bots/autoanswer_bot/docker-compose.yml,2/6/26aac76f1a16141cd33536fa4ab37ccf28c91b40
 ?
 bots/.gitignore,a/d/ade7096eb26b52a72e6e21d87ae2c4043a5262e3
 :
@@ -70,3 +66,13 @@ V
 ,bots/autoanswer_bot/handlers/paid_message.py,3/1/3100b6d7d18a57378cc30e9bcebffe8b8657b1ed
 T
 $bots/autoanswer_bot/data/__init__.py,5/b/5b519e0e899b8925fa14595b5cf281a619dd8a07
+T
+$bots/autoanswer_bot/text_paragon.txt,5/c/5ccd01fdb9df578db60b5a350d957f39b6af5f17
+P
+ bots/autoanswer_bot/garbagnya.py,0/e/0ef64bacf0dcca97060fb4a1674d1d80aaa4cd19
+U
+%bots/autoanswer_bot/TODO_echo_bot.txt,8/1/818b776eafe7a50eda6bb2c92f0d2ba7113d9830
+N
+bots/autoanswer_bot/Dockerfile,7/9/79dd491b642def1db3c12d0fa9a65202349cb662
+H
+bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542

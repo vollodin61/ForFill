@@ -55,9 +55,6 @@ class OtherParams:
     }
 
 
-print(OtherParams.dt_now)
-
-
 @dataclass
 class UserBot:
     env = Env()
