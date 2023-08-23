@@ -29,8 +29,6 @@ Y
 )bots/reminder_bot/instruction_reminder.py,e/8/e81514388fbe8dc374886aaa37b9ca4bcd29c649
 V
 &bots/autoanswer_bot/tilda_bot_data.txt,7/c/7c18d7273b043589d14c86c284c03d6d6c161c1e
-[
-+bots/autoanswer_bot/handlers/users/tilda.py,9/f/9fc9d8096b5d27ad751f47418a97549f1e1d6c67
 W
 'bots/autoanswer_bot/filters/__init__.py,f/3/f3bce93dcd5efdc40038100e47027956abb724d5
 X
@@ -49,14 +47,10 @@ C
 redactor/garbage.py,e/1/e196b4b3e018f7db8f2eb19078f159b9ed0afd7d
 i
 9redactor/список упражнений Кошка.txt,3/e/3e01f559bcc7bd783feda5875b9deb03c7dff480
-L
-bots/autoanswer_bot/bot.conf,b/c/bcf9a5ab5a1156fe2d24ed1b129a315026f3b7d7
 U
 %bots/autoanswer_bot/utils/__init__.py,3/8/38c6dd7ff91007d81c029a1294199fbe7636f067
 E
 bots/requirements.txt,c/4/c4e4e8a7821b5dcc7208a8f373ae65165667f103
-T
-$bots/autoanswer_bot/requirements.txt,1/9/194451e5fec85ea36125afee212d6f0e52f0b2c2
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
@@ -64,13 +58,11 @@ $bots/autoanswer_bot/requirements.txt,1/9/194451e5fec85ea36125afee212d6f0e52f0b
 bots/.gitignore,a/d/ade7096eb26b52a72e6e21d87ae2c4043a5262e3
 T
 $bots/autoanswer_bot/data/__init__.py,5/b/5b519e0e899b8925fa14595b5cf281a619dd8a07
-\
-,bots/autoanswer_bot/handlers/paid_message.py,3/1/3100b6d7d18a57378cc30e9bcebffe8b8657b1ed
 P
  bots/autoanswer_bot/garbagnya.py,0/e/0ef64bacf0dcca97060fb4a1674d1d80aaa4cd19
-T
-$bots/autoanswer_bot/text_paragon.txt,5/c/5ccd01fdb9df578db60b5a350d957f39b6af5f17
 U
 %bots/autoanswer_bot/TODO_echo_bot.txt,8/1/818b776eafe7a50eda6bb2c92f0d2ba7113d9830
-N
-bots/autoanswer_bot/Dockerfile,7/9/79dd491b642def1db3c12d0fa9a65202349cb662
+H
+bots/autoanswer_bot/.env,0/5/05a265093f2f2b5d19c731ee841bb37d55ffa542
+T
+$bots/autoanswer_bot/text_paragon.txt,5/c/5ccd01fdb9df578db60b5a350d957f39b6af5f17
